@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Fajar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-item">
+        <button class="hamburger" aria-label="Toggle mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" role="navigation">
+          <ul>
+            <li><a href="" class="nav-link text-base"> Blog </a></li>
+            <li><a href="" class="nav-link text-base"> Inspiration </a></li>
+            <li><a href="" class="nav-link text-base"> Gallery </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-item">
+        <a href="#" class="logo_button">
+          <img src="assets/Logo.svg" alt="" srcset="" />
+          <title>
+            FajarBlog: website curhatan seputar programing yang saya alami
+          </title>
+        </a>
+      </div>
+      <div class="header-item">
+        <form class="nav-search" action="/search">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            width="24px"
+            viewBox="0 0 24 24"
+            fill="#000000"
+            class="icon-search">
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path
+              d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+          </svg>
+
+          <input
+            class="nav-search_input"
+            type="text"
+            placeholder="Search..."
+            autocomplete="off" />
+        </form>
+        <button class="button-show-profile" />
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="hero">
+        <div class="gradient-decoration"></div>
+        <div class="container">
+          <h1 class="heading-1">Blog</h1>
+          <p>
+            Halaman blog, mungkin dalam kasus ku ini adalah tempat curhat diriku
+            tentang banyak nya permasalahan yang sudah saya alami sebelumnya
+          </p>
+        </div>
+      </section>
+
+      <div class="container">
+        <section id="content" class="article">
+          <!-- 
+          <article class="card">
+            <img src="assets/img/code-monitor.avif" alt="" srcset="" />
+            <div class="card-body">
+              <span class="badge-blog text-sm">Materi</span>
+              <h4 class="text-lg">
+                Panduan untuk Memahami Dasar-dasar Bahasa Pemrograman
+              </h4>
+              <p class="text-sm">
+                JavaScript adalah bahasa pemrograman yang sangat populer dan
+                sering digunakan untuk pengembangan web.
+              </p>
+            </div>
+          </article>
+           -->
+        </section>
+      </div>
+
+      <aside class="profile-container">
+        <section id="about" class="about-container">
+          <img
+            class="profile-picture"
+            src="assets/img/foto-profile.jpg"
+            alt="foto profile developer project web ini" />
+          <div class="story-wrapper">
+            <p class="text-base">
+              hmm.. saya hanyalah seorang npc, tanpa ada kehidupan yang spesial
+              dan dikarenakan kurang nya skill sosial mungkin lebih tepatnya npm
+              yang membawa event tertentu di dalam game. jika diibaratkan sebuah
+              game.
+            </p>
+            <div class="jobdesk-wrapper">
+              <span class="text-base jobdesk">Web Design</span>
+              <span class="text-base jobdesk">Web developer</span>
+            </div>
+            <div class="profile">
+              <div class="profile-wrapper">
+                <span class="text-sm profile-title">Nama</span>
+                <p class="text-base profile-value">Fajar Hidayat</p>
+              </div>
+              <div class="profile-wrapper">
+                <span class="text-sm profile-title">Domisili</span>
+                <p class="text-base profile-value">Kota Pontianak, Siantan</p>
+              </div>
+              <div class="profile-wrapper">
+                <span class="text-sm profile-title">email</span>
+                <p class="text-base profile-value">Fajarh085@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-section">
+          <p>Halaman Dibuat Oleh Fajar Hidayat</p>
+          <div class="footer-icons-sosmed-wrapper">
+            <a href="https://github.com/fajarhidayat18" class="icons-sosmed">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-github">
+                <title>logo github : dari feather icon</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+            <a
+              href="https://www.instagram.com/fajar_h_18/"
+              class="icons-sosmed">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-instagram">
+                <title>logo instagram : dari feather icon</title>
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
